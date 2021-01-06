@@ -1,0 +1,27 @@
+{
+  "name": "weather-widget",
+  "version": "1.0.0",
+  "description": "This is a weather widget that shows the forecast for the next days in your location",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanda-luna/bus-schedule-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanda-luna/bus-schedule-search/issues"
+  },
+  "homepage": "https://github.com/amanda-luna/bus-schedule-search#readme"
+}

@@ -9,8 +9,8 @@ function htmlTask() {
     .pipe(dest('dist'))
 }
 
-function jsTask() {
-  return src('src/*.js')
+function jsTask(){
+  return src('src/scripts/*.js')
     .pipe(sourcemaps.init())
     .pipe(concat('all.js'))
     .pipe(minifyjs())
@@ -19,7 +19,7 @@ function jsTask() {
 }
 
 function cssTask() {
-  return src('src/*.css')
+  return src('src/styles/*.css')
     .pipe(sourcemaps.init())
     .pipe(concat('all.css'))
     .pipe(cssnano())
